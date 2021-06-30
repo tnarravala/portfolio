@@ -29,7 +29,9 @@ test_png = os.getcwd() +'/assests/DSC_1452.png'
 test_base64 = base64.b64encode(open(test_png, 'rb').read()).decode('ascii')
 body = dbc.Container([ 
     
-dbc.Row([dbc.Col(html.Div( html.Img(src='data:image/png;base64,{}'.format(test_base64),style = {'width':'500','height':'600px'}))),
+dbc.Row([dbc.Col(html.Div( 
+    #html.Img(src='data:image/png;base64,{}'.format(test_base64),style = {'width':'500','height':'600px'})
+    )),
          dbc.Col([
              dbc.Row([html.H1("Professional Summary",style = {'font-size':'18px'})]),
              dbc.Row([html.P("Versatile individual with experience collecting, transforming and organizing data for analysis to make informed decisions. Excellent understanding \
