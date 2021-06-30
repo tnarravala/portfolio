@@ -30,7 +30,7 @@ test_base64 = base64.b64encode(open(test_png, 'rb').read()).decode('ascii')
 body = dbc.Container([ 
     
 dbc.Row([dbc.Col(html.Div( 
-    #html.Img(src='data:image/png;base64,{}'.format(test_base64),style = {'width':'500','height':'600px'})
+    html.Img(src='data:image/png;base64,{}'.format(test_base64),style = {'width':'400px','height':'400px'})
     )),
          dbc.Col([
              dbc.Row([html.H1("Professional Summary",style = {'font-size':'18px'})]),

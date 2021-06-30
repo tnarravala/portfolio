@@ -25,21 +25,48 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 body = dbc.Container([
     
-    dbc.Row([html.H4("June 28th, 2021")]),
-    dbc.Row(html.H5("Squaddd :")),
-    dbc.Row([html.P("Created Mongo DB connection in the Node Js Application for providing input \
-                    to the python script"),
-              html.P("Created and executed pycode.js file in Node Js application to run python code of Squaddd matching algorithm")])      
-                    ,
-    dbc.Row([html.H5("Google Capstone: ")]),
-    dbc.Row([
-        html.P("Read the Cyclistics use case")
-        ])                       ,  
-                             
-    dbc.Row([html.H4("June 28th, 2021")]),
-    dbc.Row(html.P("Interview Preparations and Attended Interviews")),
+   dbc.Row
+   ([
+     html.H5("June 30th, 2021", style = {'font-size':'18px'}), 
+   ]),
     
-    ],style={"height": "100vh"})
+    
+   dbc.Row
+   ([
+     html.H5("June 29th, 2021", style = {'font-size':'18px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Interview Preparations and Attended Interviews", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]),
+   
+   dbc.Row
+   ([
+     html.H5("June 28th, 2021", style = {'font-size':'18px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Squaddd", style = {'font-size':'14px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Created Mongo DB connection in the Node Js Application for providing input \
+                    to the python script", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Created and executed pycode.js file in Node Js application to run python code of Squaddd matching algorithm", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Google CapStone Project", style = {'font-size':'14px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Read through problem statement", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]),
+
+],style={"height": "100vh"})
 
 #app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SUPERHERO])
 server = app.server
