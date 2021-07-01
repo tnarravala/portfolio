@@ -45,7 +45,7 @@ navbar = dbc.Navbar(
                     #align="right",
                     no_gutters=True,
                 ),dbc.Row([ 
-                   html.H2("Data/Business Analyst", style = {'font-size': '20px','margin-left':"20px",'color':'red'}),]),
+                   html.H2("Actively seeking full time opportunities in Data Analytics,Data Engineer, Data science and Business analytics", style = {'font-size': '20px','margin-left':"20px",'color':'red'}),]),
                 
                     ],href="/home",
                 
