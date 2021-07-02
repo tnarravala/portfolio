@@ -27,10 +27,30 @@ body = dbc.Container([
     
    dbc.Row
    ([
+     html.H5("July 1st, 2021", style = {'font-size':'18px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Interview Preparations and Attended Interviews", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]), 
+   dbc.Row
+   ([
+     html.P("Squaddd", style = {'font-size':'14px'}), 
+   ]),
+    dbc.Row
+   ([
+     html.P("Created reactGA events to track users behaviour in google analytics", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]),
+  
+   dbc.Row
+   ([
      html.H5("June 30th, 2021", style = {'font-size':'18px'}), 
    ]),
     
-    
+     dbc.Row
+   ([
+     html.P("Interview Preparations and Attended Interviews", style = {'font-size':'14px','margin-left':'20px'}), 
+   ]),
    dbc.Row
    ([
      html.H5("June 29th, 2021", style = {'font-size':'18px'}), 
